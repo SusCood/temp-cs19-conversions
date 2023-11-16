@@ -23,11 +23,11 @@ RANDOM_HUE  = False
 NO_USER_DISTINCTION = True
 MAX_USERS = 0
 
-time_step_input = int(input("Time division:\n[0] Minutes\t[1] Hours\t[2] Days\t[3] Months\t[4] Years\n"))
+time_step_input = 2 #int(input("Time division:\n[0] Minutes\t[1] Hours\t[2] Days\t[3] Months\t[4] Years\n"))
 time_format = "%m/%d/%Y"
 time_read_index = 0
 
-label_resolution = 2 #int(input("Time label resolution:\n[0] Minutes\t[1] Hours\t[2] Days\t[3] Months\t[4] Years\n"))
+label_resolution = int(input("Time label resolution:\n[0] Minutes\t[1] Hours\t[2] Days\t[3] Months\t[4] Years\n"))
 DAYS_TO_ADD_LIST = (1/(24*60),1/24,1,31,366)
 LABEL_FORMATS    = ("%M","%H","%d","%b","%Y")
 LOG_BASE_FORMAT  = "%m/%d/%Y %I:%M %p"
